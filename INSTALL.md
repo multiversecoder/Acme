@@ -18,7 +18,7 @@ While inside the `Packages` directory, clone the theme repository using the comm
 
 #### Install manually
 
-1.  Download using the [GitHub .zip download](https://github.com/multiversecoder/acme-color-scheme/archive/master.zip) option
+1.  Download using the [GitHub .zip download](https://github.com/multiversecoder/Acme/archive/refs/tags/1.0.0.zip) option
 2.  Unzip the files and rename the folder to `Acme`
 3.  Find your `Packages` directory using the menu item `Preferences -> Browse Packages...`
 4.  Copy the folder into your Sublime Text `Packages` directory
