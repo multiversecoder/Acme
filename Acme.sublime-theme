@@ -1,0 +1,87 @@
+{
+	"extends": "Default.sublime-theme",
+	"variables":
+	{
+		"base_hue": "#000",
+		"base_tint": "#000",
+
+		"ui_bg": "#8387C3",
+		"text_fg": "#000",
+
+		"button_bg": "#EEFEFF",
+
+		"button_label_shadow": "#000",
+
+		"sidebar_bg": "#EEFEFF",
+		"sidebar_row_selected": "#8387C3",
+
+		"sidebar_heading": "#000",
+		"sidebar_heading_shadow": "#EEFEFF",
+		"sidebar_label": "#000",
+		"sidebar_label_selected": "#EFECA7",
+		"sidebar_label_ignored": "#000",
+
+		"sidebar_button_opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+		"sidebar_button_hover_opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
+
+		"sidebar_scroll_bar_bg": "#8387C3",
+		"sidebar_scroll_bar_puck_bg": "#8387C3",
+
+		"panel_bg": "var(ui_bg)",
+
+		"progress_bar_fg": "#EFECA7",
+
+		"dialog_button_bg": "#8387C3",
+
+		"icon_button_highlight": "#8387C3",
+
+		"tool_tip_fg": "#000",
+
+		"tabset_dark_tint_mod": "#000",
+		"tabset_dark_bg": "#8387C3",
+		"tabset_medium_dark_tint_mod": "#000",
+		"tabset_medium_dark_bg": "#8387C3",
+		"tabset_medium_tint_mod": "#000",
+		"tabset_medium_bg": "#8387C3",
+		"tabset_light_tint_mod": "#000",
+		"tabset_light_bg": "#8387C3",
+
+		"overlay_bg": "var(ui_bg)",
+
+		"quick_panel_label_color": "#000",
+		"quick_panel_path_label_color": "#000",
+		"quick_panel_matched_label_color": "#000",
+		"quick_panel_matched_path_label_color": "#000",
+
+		"quick_panel_selected_row_bg": "#EFECA7",
+		"quick_panel_selected_label_color": "#000",
+		"quick_panel_selected_path_label_color": "#000",
+		"quick_panel_selected_matched_label_color": "#000",
+		"quick_panel_selected_matched_path_label_color": "#000",
+
+		"status_bar_bg": "#8387C3",
+		"status_bar_label_shadow": "#8387C3",
+
+		// The angled styles aren't great, but preserved since it is easier
+		// to tweak them a little than prevent the "angled" style rules from
+		// applying
+		"file_tab_angled_unselected_dark_tint": "#000",
+		"file_tab_angled_unselected_medium_dark_tint": "#000",
+		"file_tab_angled_unselected_medium_tint": "#000",
+		"file_tab_angled_unselected_light_tint": "#000",
+
+		"file_tab_angled_unselected_label_color": "#000",
+		"file_tab_angled_unselected_label_shadow": "transparent",
+		"file_tab_angled_unselected_medium_label_color": "#000",
+		"file_tab_angled_unselected_medium_label_shadow": "transparent",
+		"file_tab_angled_unselected_light_label_color": "#000",
+		"file_tab_angled_unselected_light_label_shadow": "transparent",
+	},
+	"rules":
+	[
+		{
+			"class": "title_bar",
+			"style": "light"
+		},
+	]
+}
